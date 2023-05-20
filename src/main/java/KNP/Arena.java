@@ -13,9 +13,12 @@ public class Arena {
     }
 
     public void uvitani() {
+        System.out.println("==============================");
         System.out.println("Vítejte v aréně, kde se hraje kámen, nůžky, papír!");
+        System.out.println("Hraje se na deset bodů.");
         System.out.print("Zadej jméno hráče: ");
         jmenoHrace = sc.nextLine();
+        System.out.println("==============================");
     }
 
     public void vykresleniObtiznosti() {
@@ -28,8 +31,6 @@ public class Arena {
             System.out.println("3 - Těžká (Počítač má na začátku 4 body)");
             System.out.println("4 - Nemožná (Počítač má na začátku 6 bodů)");
             System.out.print("Zadej číslo obtížnosti: ");
-            System.out.println();
-            System.out.println();
 
             try {
                 obtiznost = Integer.parseInt(sc.nextLine());
@@ -43,6 +44,7 @@ public class Arena {
             }
         }
         System.out.println("Obtížnost nastavena na: " + obtiznost);
+        System.out.println("==============================");
     }
 
     public void spustHru() {
@@ -51,10 +53,10 @@ public class Arena {
         Hra hra = new Hra(jmenoHrace, obtiznost);
         vykresli();
         System.out.println("Nechť zápasy začnou!");
-        System.out.println("===================================");
+        System.out.println("==============================");
         System.out.println();
         hra.losovani();
-        System.out.println("===================================");
+        System.out.println("==============================");
         System.out.println();
         System.out.println("Děkuji za hru!");
         System.out.println();
