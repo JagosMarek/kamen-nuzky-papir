@@ -1,6 +1,19 @@
-# RockPaperScissors
-Konzolová aplikace, kde hráč hraje proti počítači. Hráč si na začátku hry vybere jméno, zvolí obtížnost hry a hraje proti pc. Po ukončení hry jsou všechny zápasy vypsány. Hráč má možnost si hru zopakovat.
+# Kámen Nůžky Papír
 
+Konzolová aplikace vytvořená v Javě, kde hráč hraje proti počítači. Hra se ukončí dokud jeden z hráčů nedosáhne deseti bodů.
 
-![project1](https://github.com/JagosMarek/RockPaperScissors/assets/128280984/cd4a331b-ccfe-439d-8982-93edf7382aa8)
-![project1](https://github.com/JagosMarek/RockPaperScissors/assets/128280984/6e5f62e1-1dd8-48f0-b625-220662889d00)
+## Klíčové vlastnosti
+
+- Hráč si na začátku zvolí jméno a vybere obtížnost hry.
+- Hráč si zvolí jednu ze tří možností.
+- Vstupy jsou validovány.
+- Každá jedna hra je graficky zobrazovány do konzole: (zobrazení toho co zvolil hráč a     toho co zvolil počítač).
+- Počítač průběžně komentuje probíhající hru.
+- Zápasy jsou uloženy do kolekce a na konci hry jsou vypsány.
+- Hra probíha v cyklu dokud jí hráč nebo počítač nevyhraje a hráč poté neukončí.
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+## Video
